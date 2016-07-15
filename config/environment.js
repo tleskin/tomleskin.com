@@ -16,7 +16,20 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    
+    mode: 'sprites',
+    tag_type: 'span',
+    img_dir: 'images/emoji',
+    ignore_emoticons: false,
+    blacklist: {
+      elements: ['script', 'textarea', 'a', 'pre', 'code'],
+      classes: ['no-emojify']
     }
+  };
+  
+  ENV.emoji = {
+    tag_name: "div"
   };
 
   if (environment === 'development') {
