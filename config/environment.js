@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'tleskin.github.io',
+    modulePrefix: '/',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
