@@ -18,6 +18,10 @@ body {
   margin-bottom: 0px;
 }
 
+.heart-color {
+  color: red;
+}
+
 /* Sticky footer styles
      -------------------------------------------------- */
 
@@ -55,7 +59,7 @@ body {
        padding-right: 20px;
      }
    }
-   
+
  .page-container {
   overflow-y:auto;
   position: relative;
@@ -69,13 +73,13 @@ body {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
- }   
- 
+ }
+
  .about-container {
    margin-top: 10%;
    line-height: 200%;
  }
-   
+
 header {
  position: relative;
  width: 100%;
@@ -144,4 +148,3 @@ header .header-content .header-content-inner p {
    margin-right: auto;
  }
 }
-   
