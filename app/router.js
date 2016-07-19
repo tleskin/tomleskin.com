@@ -11,6 +11,7 @@ Router.map(function() {
     this.route('burrito');
     this.route('marionettetodo');
     this.route('personal');
+    this.route('ipapi');
   });
   this.route('embersite');
 });

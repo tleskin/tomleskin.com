@@ -88,7 +88,51 @@ export default function () {
     this.fromRoute('portfolio.burrito'),
     this.toRoute('portfolio.marionettetodo'),
     this.use('fade')
-  );
+  );  this.transition(
+      this.fromRoute('portfolio.personal'),
+      this.toRoute('portfolio.ipapi'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.personal'),
+      this.toRoute('portfolio.ipapi'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.burrito'),
+      this.toRoute('portfolio.ipapi'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.ipapi'),
+      this.toRoute('portfolio.personal'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.marionettetodo'),
+      this.toRoute('portfolio.ipapi'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.ipapi'),
+      this.toRoute('portfolio.marionettetodo'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.ipapi'),
+      this.toRoute('portfolio.marionettetodo'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio'),
+      this.toRoute('portfolio.ipapi'),
+      this.use('fade')
+    );
+    this.transition(
+      this.fromRoute('portfolio.ipapi'),
+      this.toRoute('portfolio.personal'),
+      this.use('fade')
+    );
   this.transition(
     this.fromRoute('embersite'),
     this.toRoute('index'),

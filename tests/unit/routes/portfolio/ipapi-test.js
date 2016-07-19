@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('route:projects/marionettetodo', 'Unit | Route | projects/marionettetodo', {
+moduleFor('route:portfolio/ipapi', 'Unit | Route | portfolio/ipapi', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
