@@ -7,7 +7,11 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('about');
-  this.route('portfolio');
+  this.route('portfolio', function() {
+    this.route('burrito');
+    this.route('marionettetodo');
+    this.route('personal');
+  });
   this.route('embersite');
 });
 

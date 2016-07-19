@@ -45,6 +45,51 @@ export default function () {
     this.use('toRight')
   );
   this.transition(
+    this.fromRoute('portfolio'),
+    this.toRoute('portfolio.burrito'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio'),
+    this.toRoute('portfolio.marionettetodo'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio'),
+    this.toRoute('portfolio.personal'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.marionettetodo'),
+    this.toRoute('portfolio.burrito'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.burrito'),
+    this.toRoute('portfolio.personal'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.marionettetodo'),
+    this.toRoute('portfolio.personal'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.personal'),
+    this.toRoute('portfolio.burrito'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.personal'),
+    this.toRoute('portfolio.marionettetodo'),
+    this.use('fade')
+  );
+  this.transition(
+    this.fromRoute('portfolio.burrito'),
+    this.toRoute('portfolio.marionettetodo'),
+    this.use('fade')
+  );
+  this.transition(
     this.fromRoute('embersite'),
     this.toRoute('index'),
     this.use('toDown')
