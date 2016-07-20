@@ -4,6 +4,30 @@ body {
   padding-top: 20px;
 }
 
+.navbar-brand {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  font-family: 'Inconsolata', monospace;  
+}
+
+a {
+  font-family: 'Inconsolata', monospace;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+}
+
+.btn-primary {
+  font-family: 'Inconsolata', monospace;
+}
+
 .credit {
   margin-top: 20px;
   text-align: center;

@@ -12,6 +12,16 @@ module.exports = function(environment) {
         // e.g. 'with-controller': true
       }
     },
+    
+    googleFonts: [
+      'Inconsolata:400'
+    ],
+    
+    contentSecurityPolicy: {
+      'font-src': "'self' fonts.gstatic.com",
+      'style-src': "'self' fonts.googleapis.com"
+    },
+    
 
     APP: {
       // Here you can pass flags/options to your application instance
