@@ -12,6 +12,7 @@ Router.map(function() {
     this.route('marionettetodo');
     this.route('personal');
     this.route('ipapi');
+    this.route('duckhunt');
   });
   this.route('embersite');
 });
