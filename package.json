@@ -1,7 +1,7 @@
 {
   "name": "tomleskin",
   "version": "0.0.0",
-  "description": "Small description for tomleskin goes here",
+  "description": "Personal website built in Ember.js",
   "private": true,
   "directories": {
     "doc": "doc",
