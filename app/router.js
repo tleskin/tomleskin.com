@@ -13,6 +13,8 @@ Router.map(function() {
     this.route('personal');
     this.route('ipapi');
     this.route('duckhunt');
+    this.route('dcorp');
+    this.route('avalon');
   });
   this.route('embersite');
 });
