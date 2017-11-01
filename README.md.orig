@@ -18,7 +18,7 @@ You will need the following things properly installed on your computer.
 
 * `git clone <repository-url>` this repository
 * `cd my-app`
-* `yarn install && bower install`
+* `npm install`
 
 ## Running / Development
 

@@ -1,11 +1,35 @@
 @import "bootstrap";
 
 body {
-  padding-top: 20px;
+  // padding-top: 20px;
+}
+
+.navbar-brand {
+  font-family: 'Inconsolata', monospace;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: 'Inconsolata', monospace;
+}
+
+h3 {
+  font-family: 'Inconsolata', monospace;
+}
+
+a {
+  font-family: 'Inconsolata', monospace;
+}
+
+p {
+  font-family: 'Inconsolata', monospace;
+}
+
+.btn-primary {
+  font-family: 'Inconsolata', monospace;
 }
 
 .credit {
-  margin-top: 10px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -16,6 +40,33 @@ body {
 .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
+}
+
+.heart-color {
+  color: red;
+}
+
+.center {
+  text-align: center;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.portfolio-border {
+  border-style: solid;
+  border-width: medium;
+  border-color: black;
+  padding: 1%;
+}
+
+.top-image-margin {
+  margin-top: 5%;
+}
+
+.portfolio-top-margin {
+  margin-top: 2%;
 }
 
 /* Sticky footer styles
@@ -55,7 +106,7 @@ body {
        padding-right: 20px;
      }
    }
-   
+
  .page-container {
   overflow-y:auto;
   position: relative;
@@ -69,13 +120,13 @@ body {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
- }   
- 
+ }
+
  .about-container {
-   margin-top: 10%;
+   margin-top: 5%;
    line-height: 200%;
  }
-   
+
 header {
  position: relative;
  width: 100%;
@@ -144,4 +195,3 @@ header .header-content .header-content-inner p {
    margin-right: auto;
  }
 }
-   

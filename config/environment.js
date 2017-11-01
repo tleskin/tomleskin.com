@@ -1,23 +1,38 @@
-/* jshint node: true */
+/* eslint-env node */
+'use strict';
 
 module.exports = function(environment) {
-  var ENV = {
-    modulePrefix: '/',
-    environment: environment,
-    baseURL: '/',
+  let ENV = {
+    modulePrefix: 'tomleskin',
+    environment,
+    rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
+      },
+      EXTEND_PROTOTYPES: {
+        // Prevent Ember Data from overriding Date.parse.
+        Date: false
       }
     },
+
+    googleFonts: [
+      'Inconsolata:400'
+    ],
+
+    contentSecurityPolicy: {
+      'font-src': "'self' fonts.gstatic.com",
+      'style-src': "'self' fonts.googleapis.com"
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
     },
-    
+
     mode: 'sprites',
     tag_type: 'span',
     img_dir: 'images/emoji',
@@ -27,7 +42,7 @@ module.exports = function(environment) {
       classes: ['no-emojify']
     }
   };
-  
+
   ENV.emoji = {
     tag_name: "div"
   };
@@ -42,7 +57,6 @@ module.exports = function(environment) {
 
   if (environment === 'test') {
     // Testem prefers this...
-    ENV.baseURL = '/';
     ENV.locationType = 'none';
 
     // keep test console output quieter
@@ -53,8 +67,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ENV.baseURL = '/tleskin.github.io';
-    ENV.locationType = 'hash';
+    // here you can enable a production-specific feature
   }
 
   return ENV;
