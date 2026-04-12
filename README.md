@@ -3,7 +3,6 @@
 ## Personal website for Tom Leskin built in Ember.js
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 
