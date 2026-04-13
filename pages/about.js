@@ -1,0 +1,23 @@
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+
+export default function About() {
+  return (
+    <>
+      <Navbar />
+      <main className="page page-container">
+        <article className="copy-block">
+          <h1>About Tom</h1>
+          <p>
+            Tom is a software developer based in St. Petersburg, FL. He graduated from the Turing School of Software and Design in Denver, CO, in August 2015.
+            Originally from northeast Pennsylvania, he relocated to Boulder, CO in May 2014. While living in Colorado, he attended the Turing School of Software and Design from Feb. 2015 to August 2015. He moved to the Tampa Bay area in May 2016.
+          </p>
+          <p>
+            Before getting into software development, he worked as a journalist and his work has appeared at AndroidGuys, Akihabara News, The Republican-Herald, The News-Item, China Daily and Tonic. His work in software development has included web design using HTML, CSS, PHP, Ruby on Rails and JavaScript, as well as programming in C++, Java and Ruby.
+          </p>
+        </article>
+      </main>
+      <Footer />
+    </>
+  );
+}
